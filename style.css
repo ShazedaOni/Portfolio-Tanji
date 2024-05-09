@@ -1,0 +1,77 @@
+body {
+    margin: 2px;
+    padding: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: italic;
+    font-family: 'lato', sans-serif;
+    font-optical-sizing: auto;
+  }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+    background-color: #08162e;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #08162e;
+}
+.camera{
+    width: 40px;
+    margin-left: -386px;
+   
+}
+.logo {
+    margin-left: -140px;
+    color: #764404;
+    font-size: 33px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo1 {
+    color: #6b83ad;
+    font-size: 25px ;
+}
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid #814906;
+    color: whitesmoke;
+    border-radius: 40px;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.btn-primary:hover {
+    background-color: #764404;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+ list-style: none;
+ margin-right: 50px;
+}
+.lists a:hover{
+    color: #6b83ad;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #814906;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.list {
+    margin-right: -155px;
+}

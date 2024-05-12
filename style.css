@@ -83,7 +83,7 @@ nav>ul>li>a {
     background-image: url('images/img-13.jpeg'), url('images/img-16.jpeg'), url('images/img-7.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
-    padding-bottom: 300px;
+    padding-bottom: 285px;
     background-position: top left, bottom right, center;
 }
 .banner-title {

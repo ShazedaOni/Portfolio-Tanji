@@ -131,6 +131,56 @@ nav>ul>li>a {
 .btn-primary1:hover{
     background-color: rgba(98, 89, 89, 0.722);
 }
+.about{
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ background-color: mintcream;
+ padding-top: 20px;
+ margin: 150px;
+ padding-bottom: 40px;
+}
+.section-title {
+    color:#335d43;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 35px ;
+    font-weight: 500;
+    font-family: cursive;
+}
+.section-description {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    color:#0a7c41;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.about-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.about-title-description{
+    padding: 10px;
+}
+.name {
+    font-family:serif;
+    color: #254636 ;
+    font-weight: 700;
+    font-size: 20px;
+}
+.name-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#114727;
+}
 @media screen and (max-width: 576px) {
     .navbar {
         display: grid;

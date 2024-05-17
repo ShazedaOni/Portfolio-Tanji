@@ -218,17 +218,18 @@ nav>ul>li>a {
     color: #09444088;
 }
 .work h3 {
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 15px;
 }
 .work p {
     align-items: left;
     text-align: left;
+    color: #254636;
 }
 .what {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 30px;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
@@ -241,7 +242,7 @@ nav>ul>li>a {
     border: 0 auto;
     margin: 0 auto;
     box-shadow: 5px 4px 4px rgb(115, 141, 128);
-    width: 300px;
+    width: 250px;
     height: 350px;
 }
 .work img {

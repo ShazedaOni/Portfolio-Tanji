@@ -249,6 +249,30 @@ nav>ul>li>a {
     padding-left: 20px;
     padding-top: 10px;
 }
+.form h2
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+   
+}
+.form hr{
+ box-shadow: 5px 0px 2px rgb(8, 62, 8);
+}
+.form
+{
+    background-color:  mintcream;
+    margin: 0 200px 150px 200px;
+    padding-bottom: 50px;
+}
+.regi {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    padding: 20px;
+}
 
 
 @media screen and (max-width: 576px) {

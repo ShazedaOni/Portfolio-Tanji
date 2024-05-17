@@ -273,7 +273,20 @@ nav>ul>li>a {
     text-align: end;
     padding: 20px;
 }
+footer {
+    background-image: url('images/footer.jpg');
+    height: 500px;
 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.final h2 
+
+{
+    text-align: center;
+    color: #caf717;
+    padding-top: 36px;
+}
 
 @media screen and (max-width: 576px) {
     .navbar {

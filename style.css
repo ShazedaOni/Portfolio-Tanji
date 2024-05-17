@@ -181,6 +181,33 @@ nav>ul>li>a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#114727;
 }
+.portfolio h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    
+}
+.portfolio p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #526305;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    /* justify-content: space-evenly; */
+    text-align: center;
+    align-items: center;
+    
+}
+.img {
+ gap: 10px;
+  margin: 3px;
+  justify-content: space-between;
+  box-shadow: 5px  6px 9px #254636 ;
+
+}
 @media screen and (max-width: 576px) {
     .navbar {
         display: grid;

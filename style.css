@@ -275,7 +275,7 @@ nav>ul>li>a {
 }
 footer {
     /* background-image: url('images/footer.jpg'); */
-    height: 500px;
+    height: 540px;
     background-color: #112018;
 
     background-size: cover;
@@ -338,6 +338,14 @@ footer {
     font-family: cursive;
     color:whitesmoke;
 
+}
+.copy {
+    padding: 15px 5px 5px 15px;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    font-size: small;
+    color: #3a5846;
 }
 @media screen and (max-width: 576px) {
     .navbar {

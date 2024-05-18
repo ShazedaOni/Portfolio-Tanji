@@ -274,11 +274,14 @@ nav>ul>li>a {
     padding: 20px;
 }
 footer {
-    background-image: url('images/footer.jpg');
+    /* background-image: url('images/footer.jpg'); */
     height: 500px;
+    background-color: #112018;
 
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -140px;
+    padding-top: -140px;
 }
 .final h2 
 
@@ -287,7 +290,55 @@ footer {
     color: #caf717;
     padding-top: 36px;
 }
+.icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+}
+.footer-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    width: 70%;
+    margin:  0 auto;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 70px;
+    
+}
+.box {
+    background-color: #102c1b;
+    width: 250px;
+    height: 200px;
+    border: 1px solid #102c1b ;
+    border-radius: 5px;
+    box-shadow: 15px 13px 2px rgb(43, 63, 4);
+    transform-box:view-box;
+}
+.box img{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #102c1b ;
+    border-radius: 50%;
+}
+.box a{
+    text-decoration: none;
+    text-shadow: #254636;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: cursive;
+    color:whitesmoke;
 
+}
 @media screen and (max-width: 576px) {
     .navbar {
         display: grid;

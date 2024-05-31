@@ -56,6 +56,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 
 }
 /* .btn-primary:hover {
@@ -84,6 +85,7 @@ nav>ul>li>a {
 }
 .list {
     margin-right: -155px;
+    justify-content: space-evenly;
 
 
 }
@@ -173,6 +175,7 @@ nav>ul>li>a {
 }
 .about-title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -206,17 +209,30 @@ nav>ul>li>a {
 }
 .images{
     display: grid;
-    grid-template-columns: repeat(3,4fr);
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: min-content; */
     /* justify-content: space-evenly; */
     text-align: center;
     align-items: center;
     
+    
+}
+.images .img img{
+   /* height: 200px;
+   max-width: 100%;
+   max-height: 100%; */
+   height: 350px;
+   width: 300px;
+
+
+
 }
 .img {
- gap: 10px;
+  gap: 10px;
   margin: 3px;
   justify-content: space-between;
   box-shadow: 5px  6px 9px #254636 ;
+  overflow: hidden;
 
 }
 .what-i-know h2 {
@@ -260,6 +276,10 @@ nav>ul>li>a {
     padding-left: 20px;
     padding-top: 10px;
 }
+.text, .email{
+    width: 100%;
+    height: 40px;
+}
 .form h2
 {
     justify-content: center;
@@ -275,8 +295,12 @@ nav>ul>li>a {
 .form
 {
     background-color:  mintcream;
-    margin: 0 200px 150px 200px;
+    /* margin: 0 200px 150px 200px; */
+    margin: 0 auto;
     padding-bottom: 50px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 200px;
 }
 .regi {
     justify-content: center;
@@ -368,10 +392,12 @@ footer {
         width: 100%;
         background-color: rgba(1, 15, 8, 0.95);
     }
-    nav>ul {
+    /* nav>ul {
         grid-template-columns:repeat(2, 1fr);
         gap: 5px;
-     }
+     } */
+    
+
     .camera{
         margin-left: 5px;
         width: 100px;
@@ -381,19 +407,46 @@ footer {
     }
     .btn-primary{
         padding: 4px 5px 4px 10px;
-        margin-top: 5px;
+        margin-bottom: 20px;
         align-items: center;
         justify-content: center;
         text-align: center;
+        position: relative;
 
     }
-    nav>ul>li>a {
+ 
+     
+    .list {
+        display: block;
+        box-shadow: 2px 2px 5px rgba(187, 221, 187, 0.781);
+       /* position: absolute; */
+     }
+     .list a {
+        display: none;
+        padding: 5px 10px;
+     }
+    
+     /* .btn-primary:hover + .list  .lists{
+        display: block;
+     } */
+     .btn-primary:checked + .list {
+        display: block;
+        /* padding: 5px 10px; */
+        /* color: #000; Adjust text color as needed */
+        /* text-decoration: none; /* Remove default underline */
+    } 
+    .list:checked a {
+        display: block;
+    }
+   
+
+    /* nav>ul>li>a {
         
         font-size: 13px;
     }
     .list{
-        margin-right: -50px;
-    }
+        margin-right: 120px;
+    } */
     .what {
         flex-direction: column;
     }
@@ -417,7 +470,7 @@ footer {
         font-size: 25px;
         color: #1fe384;
     }
-    
+
     .banner-name{
         font-size: 25px;
     }
@@ -448,10 +501,11 @@ footer {
     .box {
         margin-top: -50px;
     }
-    .form{
+    /* .form{
         margin: 40px;
+        margin: 0;
         width: 100%;
-    }
+    } */
     .regi {
         justify-content: center;
         align-items: center;
@@ -473,5 +527,6 @@ footer {
   }
   .images {
     grid-template-columns: repeat(1, 4fr);
+
 }
 }
